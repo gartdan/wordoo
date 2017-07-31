@@ -1,0 +1,8 @@
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Engine\bin\Debug\netcoreapp1.1\Wordoo.Engine.deps.json
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Engine\bin\Debug\netcoreapp1.1\Wordoo.Engine.dll
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Engine\obj\Debug\netcoreapp1.1\Wordoo.Engine.csprojResolveAssemblyReference.cache
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Engine\obj\Debug\netcoreapp1.1\Wordoo.Engine.csproj.CoreCompileInputs.cache
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Engine\obj\Debug\netcoreapp1.1\Wordoo.Engine.AssemblyInfo.cs
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Engine\bin\Debug\netcoreapp1.1\Wordoo.Engine.pdb
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Engine\obj\Debug\netcoreapp1.1\Wordoo.Engine.dll
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Engine\obj\Debug\netcoreapp1.1\Wordoo.Engine.pdb

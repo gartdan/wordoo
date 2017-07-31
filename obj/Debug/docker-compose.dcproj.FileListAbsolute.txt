@@ -1,0 +1,1 @@
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

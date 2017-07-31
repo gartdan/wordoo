@@ -1,0 +1,73 @@
+﻿@using WordCloudGenerator.Web.TagCloud
+@using Wordoo.CrossPlat.Helpers
+@model Wordoo.CrossPlat.Models.HomeModel
+@{
+    ViewBag.Title = "Wordoo.io - Simple Word Cloud Generator";
+}
+
+<style type="text/css">
+    span {
+    display: inline-block;
+}
+</style>
+
+<div class="row">
+    <div class="large-12 columns">
+        <div class="panel">
+
+            @using (Html.BeginForm("Count", "Home", FormMethod.Post))
+            {
+                <h4>Generate a word cloud:</h4>
+                @Html.TextBox("url", Model.Url, new { placeholder = "Enter a url to a page, text file or pdf.", type = "url" })
+                <input type="submit" id="submit" value="Submit" class="button" />
+            }
+        </div>
+    </div>
+</div>
+
+@if (Model.WordDistribution != null)
+{
+    var cloud = Model.WordDistribution;
+    <div class="row">
+
+        <div class="large-8 columns">
+            <div class="panel">
+                <h4>Word Cloud</h4>@{if (!string.IsNullOrEmpty(Model.Url))
+                    { @Html.Raw("for url: ")@Model.Url }}<hr />
+
+                <a href="@Url.Action("PDF", new { url = @Model.Url })"><input type="button" class="small button" value="Save as PDF" /></a>
+                <input type="button" class="small button" value="Save as Image" />
+                <input type="button" class="small button" value="Save as HTML" />
+                <input type="button" class="small button" value="Save as Excel" />
+
+
+                @Html.TagCloud(cloud, new TagCloudGenerationRules() { Order = TagCloudOrder.Alphabetical, MaxNumberOfTags = 100 })
+            
+            
+                
+            
+            </div>
+        </div>
+        <div class="large-4 columns">
+            <div class="panel">
+                <h4>Word Distribution</h4><hr />
+                @Html.DistributionTable("word-cloud-table", cloud, 100, "Word", "Count", new { @class = "distribution-table" })
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+
+    function DownloadPDF() {
+        var url = $("#url").val();
+        $.ajax({
+            type: "POST",
+            url: '/Home/PDF',
+            data: { 'url': url }
+            });
+    }
+
+
+    </script>
+                    }

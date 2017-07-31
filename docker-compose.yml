@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  wordoo.containerized:
+    image: wordoo.containerized
+    build:
+      context: ./Wordoo.Containerized
+      dockerfile: Dockerfile

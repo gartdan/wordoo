@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+ <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+
+
+    ﻿
+
+
+    <script src="~/js/modernizr-2.6.2.js"></script>
+    <link href="~/css/foundation.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+
+
+
+</head>
+<body>
+    <!-- Header bar with name and navigation links -->
+    <nav class="top-bar">
+        <ul class="title-area">
+            <li class="name"><h1><a href="http://www.wordoo.io">Wordoo.io</a></h1></li>
+            <li class="toggle-topbar"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <ul class="left">
+                <li><a href="http://www.wordoo.io">home</a></li>
+                <li><a href="http://www.wordoo.io/about">about</a></li>
+                <li><a href="http://blog.wordoo.io">blog</a></li>
+                <li><a href="http://www.wordoo.io/languages">languages</a></li>
+                <li><a href="http://www.wordoo.io/api">api</a></li>
+                <li><a href="http://www.wordoo.io/contact">contact</a></li>
+            </ul>
+        </section>
+    </nav>
+
+    <header>
+        <div class="row">
+            <div class="twelve columns">
+                <h1 class="">Wordoo</h1>
+                <h3 class="" contenteditable="true">Simple Word Cloud Generator</h3>
+            </div>
+        </div>
+    </header>
+
+    @RenderBody()
+
+    
+    @RenderSection("scripts", required: false)
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-41851756-1', 'wordoo.io');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+</html>

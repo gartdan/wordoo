@@ -1,0 +1,15 @@
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Containerized\bin\Debug\netcoreapp1.1\Wordoo.Containerized.deps.json
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Containerized\bin\Debug\netcoreapp1.1\Wordoo.Containerized.runtimeconfig.json
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Containerized\bin\Debug\netcoreapp1.1\Wordoo.Containerized.runtimeconfig.dev.json
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Containerized\bin\Debug\netcoreapp1.1\Wordoo.Containerized.dll
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Containerized\bin\Debug\netcoreapp1.1\Wordoo.Containerized.pdb
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Containerized\obj\Debug\netcoreapp1.1\Wordoo.Containerized.csprojResolveAssemblyReference.cache
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Containerized\obj\Debug\netcoreapp1.1\Wordoo.Containerized.csproj.CoreCompileInputs.cache
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Containerized\obj\Debug\netcoreapp1.1\Wordoo.Containerized.AssemblyInfo.cs
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Containerized\obj\Debug\netcoreapp1.1\Wordoo.Containerized.dll
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Containerized\obj\Debug\netcoreapp1.1\Wordoo.Containerized.pdb
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Containerized\bin\Debug\netcoreapp1.1\Wordoo.Engine.dll
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Containerized\bin\Debug\netcoreapp1.1\Wordoo.Engine.pdb
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Containerized\bin\Debug\netcoreapp1.1\App_Data\NoiseWordsMysql.txt
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Containerized\bin\Debug\netcoreapp1.1\App_Data\NoiseWordsPageAnalyzer.txt
+C:\Users\dgartne\Source\Repos\Wordoo.Containerized\Wordoo.Containerized\bin\Debug\netcoreapp1.1\App_Data\StopWords-Wordle.txt
